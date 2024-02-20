@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Jura:wght@300..700&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow:hidden;
+}
+
+body{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  background: url('../Images/pxfuel.jpg');
+  background-size: cover;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet{
+  position:absolute;
+  top:18px;
+  left:18px;
+  width:20px;
+  height:20px;
+  border-radius:100%;
+  border: 2px white solid;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:antiorbit;
+  -webkit-animation-duration:3s;
+}
+
+.planet2{
+  position:absolute;
+  top:22px;
+  left:22px;
+  width:30px;
+  height:30px;
+  border-radius:100%;
+  border: 2px white solid;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:antiorbit;
+  -webkit-animation-duration:5s;
+}
+
+.planet3{
+  position:absolute;
+  top:32px;
+  left:32px;
+  width:30px;
+  height:30px;
+  border-radius:100%;
+  border: 2px white solid;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:antiorbit;
+  -webkit-animation-duration:13s;
+}
+
+.planet4{
+  position:absolute;
+  top:45px;
+  left:45px;
+  width:25px;
+  height:25px;
+  border-radius:100%;
+  border: 2px white solid;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:antiorbit;
+  -webkit-animation-duration:25s;
+}
+
+.planet5{
+  position:absolute;
+  top:47px;
+  left:47px;
+  width:60px;
+  height:60px;
+  border-radius:100%;
+  border: 2px white solid;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:antiorbit;
+  -webkit-animation-duration:120s;
+}
+
+.planet6{
+  position:absolute;
+  top:75px;
+  left:75px;
+  width:39px;
+  height:39px;
+  border-radius:100%;
+  border: 2px white solid;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:antiorbit;
+  -webkit-animation-duration:350s;
+}
+
+.planet7{
+  position:absolute;
+  top:92px;
+  left:92px;
+  width:33px;
+  height:33px;
+  border-radius:100%;
+  border: 2px white solid;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:antiorbit;
+  -webkit-animation-duration:1000s;
+}
+
+.planet8{
+  position:absolute;
+  top:102px;
+  left:102px;
+  width:32px;
+  height:32px;
+  border-radius:100%;
+  border: 2px white solid;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:antiorbit;
+  -webkit-animation-duration:4000s;
+}
+
+.RealSun{
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  -webkit-animation-duration:20s;
+  border: 1px rgba(255, 255, 255, 0.5) solid;
+  border-radius:100%;
+}
+
+.sun{
+  width:200px;
+  height:200px;
+  position:absolute;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  -webkit-animation-duration:5s;
+  border: 1px rgba(255, 255, 255, 0.8) solid;
+  border-radius:100%;
+}
+
+.sun2{
+  width:275px;
+  height:275px;
+  position:absolute;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  -webkit-animation-duration:13s;
+  border: 1px rgba(255, 255, 255, 0.7) solid;
+  border-radius:50%;
+}
+
+.sun3{
+  width:350px;
+  height:350px;
+  position:absolute;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  -webkit-animation-duration:25s;
+  border: 1px rgba(255, 255, 255, 0.6) solid;
+  border-radius:50%;
+}
+
+.sun4{
+  width:425px;
+  height:425px;
+  position:absolute;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  -webkit-animation-duration:50s;
+  border: 1px rgba(255, 255, 255, 0.5) solid;
+  border-radius:50%;
+}
+
+.sun5{
+  width:550px;
+  height:550px;
+  position:absolute;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  -webkit-animation-duration:250s;
+  border: 1px rgba(255, 255, 255, 0.4) solid;
+  border-radius:50%;
+}
+
+.sun6{
+  width:680px;
+  height:680px;
+  position:absolute;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  -webkit-animation-duration:750s;
+  border: 1px rgba(255, 255, 255, 0.3) solid;
+  border-radius:50%;
+}
+
+.sun7{
+  width:770px;
+  height:770px;
+  position:absolute;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  -webkit-animation-duration:2000s;
+  border: 1px rgba(255, 255, 255, 0.2) solid;
+  border-radius:50%;
+}
+
+.sun8{
+  width:850px;
+  height:850px;
+  position:absolute;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  -webkit-animation-duration:4000s;
+  border: 1px rgba(255, 255, 255, 0.1) solid;
+  border-radius:50%;
+}
+
+.sun9{
+  width:100px;
+  height:100px;
+  position:absolute;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-name:orbit;
+  -webkit-animation-duration:100s;
+  background-image: url('sun.png');
+  background-size: cover;
+}
+
+.PlanetNameClass{
+  position:absolute;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:end;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  width:200px;
+}
+.PlanetNameClass p {
+  margin:0;
+  padding:0;
+  }
+
+.PlanetNameClass2{
+  position:absolute;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:start;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  width:200px;
+}
+.PlanetNameClass2 p {
+  margin:0;
+  padding:0;
+  }
+
+.Link{
+  height:40px;
+  width:100px;
+  border: 1px solid rgba(255, 255, 255, 0.5);;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 15px;
+  margin-left:32px;
+  color:white;
+  padding:10px;
+  transition:0.5s;
+}
+
+.Link:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  transition:0.5s;
+  box-shadow:0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+@-webkit-keyframes orbit { 
+from { -webkit-transform:rotate(0deg) } 
+to { -webkit-transform:rotate(360deg) } 
+}
+
+@-webkit-keyframes antiorbit { 
+from { -webkit-transform:rotate(0deg) } 
+to { -webkit-transform:rotate(-360deg) } 
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    color:white;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    text-decoration: none;
+  color:white;
+}
+
+.sidenav h3 {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav h5 {
+    margin:5px 0 0 0;
+    padding: 2px 8px 2px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav p {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
